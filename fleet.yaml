@@ -1,0 +1,6 @@
+namespace: myapp-namespace
+
+
+helm:
+
+  releaseName: myapp
