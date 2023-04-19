@@ -1,3 +1,27 @@
 namespace: myapp-namespace
 helm:
   releaseName: myapp
+# targetCustomizations:
+# - name: dev
+#   helm:
+#    values:
+#      replication: false
+#  clusterSelector:
+#    matchLabels:
+#      env: dev
+# - name: test
+#  helm:
+#    values:
+#      replicas: 3
+#  clusterSelector:
+#    matchLabels:
+#      env: test
+
+# - name: prod
+#  helm:
+#    values:
+#      serviceType: LoadBalancer
+#      replicas: 3
+#  clusterSelector:
+#    matchLabels:
+#      env: prod
